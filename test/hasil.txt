@@ -1,0 +1,27 @@
+Matriks yang digunakan
+BB DD EE AA EE EE 
+CC CC DD EE AA AA 
+BB DD BB BB AA DD 
+DD BB BB EE DD CC 
+DD DD BB BB CC AA 
+DD BB BB CC EE DD 
+
+Sekuens yang digunakan
+EE AA EE CC 
+37
+DD CC 
+41
+EE BB 
+32
+
+Total bobot hadiah : 114
+Buffer : DD CC EE BB DD CC DD
+DD Terletak pada : 2, 1
+CC Terletak pada : 2, 2
+EE Terletak pada : 4, 2
+BB Terletak pada : 4, 3
+DD Terletak pada : 6, 3
+CC Terletak pada : 6, 4
+DD Terletak pada : 1, 4
+
+Duarsi yang dibutuhkan : 81 ms
