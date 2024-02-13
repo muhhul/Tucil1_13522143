@@ -217,7 +217,7 @@ vector<vector<string>> createRandomMatrix(int col, int row, string token, int am
 
     random_device rd;
     mt19937 gen(rd());
-    uniform_int_distribution<> distribution(0, arrToken.size()-1);
+    uniform_int_distribution<> distribution(0, arrToken.size() - 1);
     matrix.resize(row, std::vector<std::string>(col));
     for (int i = 0; i < row; i++)
     {
@@ -248,7 +248,7 @@ vector<string> createRandomSequens(int maxSequences, int amountSequences, string
     random_device rd;
     mt19937 gen(rd());
     uniform_int_distribution<> distribution(2, maxSequences);
-    uniform_int_distribution<> distribution2(0, arrToken.size()-1);
+    uniform_int_distribution<> distribution2(0, arrToken.size() - 1);
     vector<string> arrSequens;
     for (int i = 0; i < amountSequences; i++)
     {
@@ -507,8 +507,11 @@ int main()
         if (inputUser == 1)
         {
             inputUserCheck = true;
-
-            vector<string> dataFromFile = fileToVector("tes.txt");
+            cout << "Masukkan nama file yang ingin kamu muat: ";
+            string inputUserString;
+            cin >> inputUserString;
+            inputUserString = inputUserString + ".txt";
+            vector<string> dataFromFile = fileToVector(inputUserString);
 
             istringstream issBufferSize(dataFromFile[0]);
             issBufferSize >> bufferSize;

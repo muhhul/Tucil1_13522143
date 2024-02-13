@@ -1,27 +1,27 @@
 Matriks yang digunakan
-BB DD EE AA EE EE 
-CC CC DD EE AA AA 
-BB DD BB BB AA DD 
-DD BB BB EE DD CC 
-DD DD BB BB CC AA 
-DD BB BB CC EE DD 
+7A 55 E9 E9 1C 55                                                                                               
+55 7A 1C 7A E9 55                                                                                               
+55 1C 1C 55 E9 BD                                                                                               
+BD 1C 7A 1C 55 BD                                                                                               
+BD 55 BD 7A 1C 1C                                                                                               
+1C 55 55 7A 55 7A                                                                                               
 
 Sekuens yang digunakan
-EE AA EE CC 
-37
-DD CC 
-41
-EE BB 
-32
+BD E9 1C
+15
+BD 7A BD
+20
+BD 1C BD 55
+30
 
-Total bobot hadiah : 114
-Buffer : DD CC EE BB DD CC DD
-DD Terletak pada : 2, 1
-CC Terletak pada : 2, 2
-EE Terletak pada : 4, 2
-BB Terletak pada : 4, 3
-DD Terletak pada : 6, 3
-CC Terletak pada : 6, 4
-DD Terletak pada : 1, 4
+Total bobot hadiah : 50
+Buffer : 7A BD 7A BD 1C BD 55
+7A Terletak pada : 1, 1
+BD Terletak pada : 1, 4
+7A Terletak pada : 3, 4
+BD Terletak pada : 3, 5
+1C Terletak pada : 6, 5
+BD Terletak pada : 6, 3
+55 Terletak pada : 1, 3
 
-Duarsi yang dibutuhkan : 81 ms
+Duarsi yang dibutuhkan : 80 ms

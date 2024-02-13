@@ -1,0 +1,27 @@
+Matriks yang digunakan
+7A 1C 1C 1C E9                                                                                                
+7A BD E9 BD BD                                                                                                
+E9 7A E9 1C 55                                                                                                
+E9 BD 1C 1C 7A                                                                                                
+E9 E9 55 BD 7A                                                                                                
+
+Sekuens yang digunakan
+7A BD BD
+12
+E9
+12
+BD 7A
+26
+55
+5
+E9 BD 1C 1C
+17
+
+Total bobot hadiah : 38
+Buffer : 7A E9 BD 7A
+7A Terletak pada : 1, 1
+E9 Terletak pada : 1, 4
+BD Terletak pada : 2, 4
+7A Terletak pada : 2, 3
+
+Duarsi yang dibutuhkan : 0 ms

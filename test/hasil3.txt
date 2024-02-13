@@ -1,0 +1,17 @@
+Matriks yang digunakan
+7A 55                                                                                                   
+BD E9                                                                                                   
+
+Sekuens yang digunakan
+55 BD 55
+25
+7A E9
+7
+7A 55 7A
+18
+
+Total bobot hadiah : -1
+Buffer : 
+
+Duarsi yang dibutuhkan : 0 ms
+
